@@ -1,0 +1,23 @@
+.div1{background-color: bisque;
+   position:relative;
+   top: -17px;}
+body{margin:0;
+   padding:0;}
+h1{ text-align: center;
+   font-family: 'Akronim';font-size: 25px; }
+a{  font-size: 20px;
+    margin-left: 250px;
+   margin-right: 150px;
+   text-align: center;
+   display: inline-block;
+   text-decoration: none;
+   color: black;
+   transition-duration: .75s;}
+
+.r1:hover{opacity: 0.5;}
+.r1:active{opacity: 0.8;}
+.r2:hover{opacity: 0.5;}
+.r2:active{opacity: 0.8;}
+.r3:hover{opacity: 0.5;}
+.r3:active{opacity: 0.8;}
+
