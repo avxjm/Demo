@@ -78,28 +78,17 @@ div#nav-bar ul#nav-list li.last-item {
   margin-right: auto;
 }
 
-.r1:hover {
+.nav-button:hover {
   opacity: 0.5;
 }
 
-.r1:active {
+ul#cssnav li:hover {
+  background-color: #cc8;
+}
+
+.nav-button:active {
   opacity: 0.8;
-}
-
-.r2:hover {
-  opacity: 0.5;
-}
-
-.r2:active {
-  opacity: 0.8;
-}
-
-.r3:hover {
-  opacity: 0.5;
-}
-
-.r3:active {
-  opacity: 0.8;
+  background-color: #c88;
 }
 
 #div2 {
@@ -167,21 +156,31 @@ ul#cssnav {
   display: flex;
   flex-direction: row;
   height: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  padding-inline-start: 40px;
+  padding-inline-end: 40px;
 }
 
 ul#cssnav li {
   float: left;
-  width: 350px;
+  /* width: 350px; */
   text-align: center;
-  padding-top: 15px;
+  /* padding-top: 15px; */
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(140, 110, 77);
 }
 
 ul#cssnav li a {
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  /* padding: 14px 16px; */
   text-decoration: none;
 }
+
 /* ul.navbar {
   list-style: none;
   overflow: hidden;
@@ -267,3 +266,4 @@ div.barnav ul.navbar li.last-item {
 div#content-container{ height: 300px;}
 ul.navbar li#html-li {background-color: palevioletred;}
 ul.navbar li#java-li {margin-right: auto;}
+
