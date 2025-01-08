@@ -37,6 +37,7 @@ div#nav-bar ul#nav-list {
     align-items: center;
     padding: 0;
     padding-inline-start: 40px;
+    padding-inline-end: 40px;
     margin: 0;
     height: 100%;
 }
@@ -70,10 +71,11 @@ div#nav-bar ul#nav-list li a {
 
 div#nav-bar ul#nav-list li.selected {
     background-color: #9db;
+    cursor: revert;
 }
 
-div#nav-bar ul#nav-list li.right {
-    float: right;
+div#nav-bar ul#nav-list li.last-item {
+    margin-right: auto;
 }
 
 
