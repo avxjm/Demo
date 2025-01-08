@@ -1,77 +1,141 @@
 .div1 {
-   background-color: bisque;
-   position: relative;
-   top: -17px;
-   padding-top: 20px;
-   padding-bottom: 5px;
- }
- body {
-   margin: 0;
-   padding: 0;
- }
- h1 {
-   text-align: center;
-   font-family: "Akronim";
-   font-size: 25px;
-   padding-bottom: 30px;
- }
- a {
-   font-size: 20px;
-   margin-left: 250px;
-   margin-right: 150px;
-   text-align: center;
-   display: inline-block;
-   text-decoration: none;
-   color: black;
-   transition-duration: 0.75s;
- }
- 
- .r1:hover {
-   opacity: 0.5;
- }
- .r1:active {
-   opacity: 0.8;
- }
- .r2:hover {
-   opacity: 0.5;
- }
- .r2:active {
-   opacity: 0.8;
- }
- .r3:hover {
-   opacity: 0.5;
- }
- .r3:active {
-   opacity: 0.8;
- }
- #div2 {
-   background-color: gray;
-   width: 80%;
-   padding-bottom: 138px;
- }
- .steven {
-   font-family: "Jersey 10", serif;
-   font-weight: 400;
-   font-style: normal;
- }
- #div3 {
-   background-color: #99f;
-   width: 20%;
-   padding-bottom: 17px;
-   text-align: center;
- }
- .inline{
-     float: left;
-   padding-top: 10px;
-   position: relative;
-   top: -35px;
-   padding-bottom: 70px;
- }
- .inline div{
-     padding-left: 15px;
- }
- .placeholder{
-     height: 100px;
-     width: 100px;
-     border-radius: 50%;
- }
+    background-color: bisque;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Akronim";
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+div#nav-bar {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100vw;
+    height: 40px;
+}
+
+div#nav-bar ul#nav-list {
+    background-color: #99a;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+    margin: 0;
+    height: 100%;
+}
+
+div#nav-bar ul#nav-list li {
+    display: flex;
+    align-items: center;
+    background-color: #aab;
+    float: left;
+    padding: 0 20px;
+    height: 100%;
+    cursor: pointer;
+}
+
+div#nav-bar ul#nav-list li:hover {
+    background-color: #cc8;
+}
+
+div#nav-bar ul#nav-list li.selected:hover {
+    background-color: #9db;
+}
+
+div#nav-bar ul#nav-list li:active {
+    background-color: #c88;
+}
+
+div#nav-bar ul#nav-list li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+div#nav-bar ul#nav-list li.selected {
+    background-color: #9db;
+    cursor: revert;
+}
+
+div#nav-bar ul#nav-list li.last-item {
+    margin-right: auto;
+}
+
+
+
+.r1:hover {
+    opacity: 0.5;
+}
+
+.r1:active {
+    opacity: 0.8;
+}
+
+.r2:hover {
+    opacity: 0.5;
+}
+
+.r2:active {
+    opacity: 0.8;
+}
+
+.r3:hover {
+    opacity: 0.5;
+}
+
+.r3:active {
+    opacity: 0.8;
+}
+
+#div2 {
+    background-color: gray;
+    width: 80%;
+    padding-bottom: 138px;
+}
+
+.steven {
+    font-family: "Jersey 10", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#div3 {
+    background-color: #99f;
+    width: 20%;
+    padding-bottom: 17px;
+    text-align: center;
+}
+
+.inline {
+    float: left;
+    padding-top: 10px;
+    position: relative;
+    padding-bottom: 70px;
+}
+
+.inline div {
+    padding-left: 15px;
+}
+
+.placeholder {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
