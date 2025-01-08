@@ -105,7 +105,7 @@ div#nav-bar ul#nav-list li.last-item {
 #div2 {
   background-color: gray;
   width: 80%;
-  padding-bottom: 138px;
+  height: 100%;
 }
 
 .steven {
@@ -117,8 +117,8 @@ div#nav-bar ul#nav-list li.last-item {
 #div3 {
   background-color: #99f;
   width: 20%;
-  padding-bottom: 17px;
   text-align: center;
+  height: 100%;
 }
 
 .inline {
@@ -182,7 +182,7 @@ ul#cssnav li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-ul.navbar {
+/* ul.navbar {
   list-style: none;
   overflow: hidden;
   list-style-type: none;
@@ -203,4 +203,67 @@ ul.navbar a {
 }
 ul.navbar li {
   float: left;
+} */
+
+div.barnav {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100vw;
+  height: 40px;
 }
+
+div.barnav ul.navbar {
+  background-color: burlywood;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  padding-inline-start: 40px;
+  padding-inline-end: 40px;
+  margin: 0;
+  height: 100%;
+}
+div.barnav ul.navbar li {
+  display: flex;
+  align-items: center;
+  background-color: burlywood;
+  float: left;
+  padding: 0 20px;
+  height: 100%;
+  cursor: pointer;
+}
+div.barnav ul.navbar li:hover {
+  background-color: #cc8;
+}
+
+div.barnav ul.navbar li.selected:hover {
+  background-color: #9db;
+}
+
+div.barnav ul.navbar li:active {
+  background-color: #c88;
+}
+
+div.barnav ul.navbar li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div.barnav ul.navbar li.selected {
+  background-color: #9db;
+  cursor: revert;
+}
+
+div.barnav ul.navbar li.last-item {
+  margin-right: auto;
+}
+.htmlplaceholder{height: 100px;
+   width: 100px;
+}
+div#content-container{ height: 300px;}
+ul.navbar li#html-li {background-color: palevioletred;}
+ul.navbar li#java-li {margin-right: auto;}
