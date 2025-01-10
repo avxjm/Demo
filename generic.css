@@ -78,6 +78,21 @@ div#nav-bar ul#nav-list li.last-item {
   margin-right: auto;
 }
 
+canvas#canvasContent {
+  border: 1px #111 solid;
+}
+
+div#canvasContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .nav-button:hover {
   opacity: 0.5;
 }
@@ -112,9 +127,9 @@ ul#cssnav li:hover {
 
 .inline {
   float: left;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   position: relative;
-  padding-bottom: 70px;
+  /*padding-bottom: 70px;*/
 }
 
 .inline div {
@@ -263,7 +278,7 @@ div.barnav ul.navbar li.last-item {
 .htmlplaceholder{height: 100px;
    width: 100px;
 }
-div#content-container{ height: 300px;}
+div#content-container{ height: 450px;}
 ul.navbar li#html-li {background-color: palevioletred;}
 ul.navbar li#java-li {margin-right: auto;}
 
